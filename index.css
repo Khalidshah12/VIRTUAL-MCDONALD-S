@@ -1,0 +1,172 @@
+* {
+    font-family: sans-serif;
+}
+
+#foodList {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.food {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.food>h1 {
+    text-decoration: underline;
+    color: chocolate;
+    padding-left: 5px;
+}
+
+.imagesDiv>img {
+    width: 32%;
+    height: 100%;
+}
+
+.imagesDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+th {
+    background-color: goldenrod;
+}
+
+td {
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-left-td {
+    border-bottom-left-radius: 10px;
+}
+
+.bottom-right-td {
+    border-bottom-right-radius: 10px;
+}
+
+.foodName {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.price {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+#orderFood {
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: chocolate;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+#orderFood:hover {
+    background-color: rgb(201, 82, 46);
+    color: white;
+}
+
+#menu {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    color: crimson;
+}
+
+#appendDiv {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    background-color: rgb(245, 237, 237);
+}
+
+#wait{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    color: green;
+    margin-top: 5px;
+
+}
+
+#orderId {
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+    justify-content: end;
+    font-size: 24px;
+    background-color: magenta;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+#imageDivcontainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    border: 1px solid magenta;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(152, 255, 255);
+}
+
+#imgdiv {
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: rgb(253, 207, 215);
+}
+
+.orderImg {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.thanks {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.soon {
+    width: 90%;
+    margin: auto;
+    color: gray;
+
+}
+
+#yourOrder {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
