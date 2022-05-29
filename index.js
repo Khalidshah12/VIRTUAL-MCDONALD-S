@@ -92,12 +92,12 @@ function orderFunc() {
 
         const p = document.createElement('p');
         p.setAttribute("class", "soon")
-        p.innerText = "You order will be deliver soon..."
+        p.innerText = "You order will be delivered soon...."
         appendDiv.append(p)
 
         const yourOrder = document.createElement('h1');
         yourOrder.setAttribute("id", "yourOrder")
-        yourOrder.innerText = "Your Orders"
+        yourOrder.innerText = "Your Orders" + "(" + ordereditems.length + ")"
         appendDiv.append(yourOrder)
 
 
